@@ -14,26 +14,23 @@
 \contentsline {subsection}{\numberline {3.2.1}Pre-Processing}{13}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Registration}{14}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Tractography}{16}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Graph Generation}{18}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Alternative Processing Methods}{20}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Architecture of the ndmg Package}{21}{section.3.3}
-\contentsline {section}{\numberline {3.4}Validation}{22}{section.3.4}
-\contentsline {section}{\numberline {3.5}Quality Control}{24}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Raw Data}{24}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Graphs}{25}{subsection.3.5.2}
-\contentsline {chapter}{\numberline {4}Results}{27}{chapter.4}
-\contentsline {section}{\numberline {4.1}The ndmg Pipeline \& Package}{27}{section.4.1}
-\contentsline {section}{\numberline {4.2}Open Access Data}{28}{section.4.2}
-\contentsline {section}{\numberline {4.3}Discriminability of ndmg}{30}{section.4.3}
-\contentsline {section}{\numberline {4.4}Quality Control}{32}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Raw Data}{32}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Graphs}{34}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Web services}{37}{section.4.5}
+\contentsline {subsection}{\numberline {3.2.4}Graph Generation}{17}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Alternative Processing Methods}{18}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Architecture of the ndmg Package}{19}{section.3.3}
+\contentsline {section}{\numberline {3.4}Validation}{19}{section.3.4}
+\contentsline {section}{\numberline {3.5}Quality Control}{21}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Raw Data}{21}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Graphs}{22}{subsection.3.5.2}
+\contentsline {chapter}{\numberline {4}Results}{30}{chapter.4}
+\contentsline {section}{\numberline {4.1}The ndmg Pipeline \& Package}{30}{section.4.1}
+\contentsline {section}{\numberline {4.2}Open Access Data}{31}{section.4.2}
+\contentsline {section}{\numberline {4.3}Discriminability of ndmg}{33}{section.4.3}
+\contentsline {section}{\numberline {4.4}Quality Control}{35}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Raw Data}{35}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Graphs}{36}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Web services}{38}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}MR-GRUTEDB}{38}{subsection.4.5.1}
 \contentsline {subsection}{\numberline {4.5.2}C4}{38}{subsection.4.5.2}
-\contentsline {chapter}{\numberline {5}Conclusion}{40}{chapter.5}
-\contentsline {chapter}{Bibliography}{41}{chapter*.26}
-\contentsline {chapter}{\numberline {A}Graph Analysis}{47}{appendix.A}
-\contentsline {section}{\numberline {A.1}MRN114}{47}{section.A.1}
-\contentsline {section}{\numberline {A.2}SWU4}{50}{section.A.2}
-\contentsline {chapter}{Vita}{52}{appendix*.37}
+\contentsline {chapter}{\numberline {5}Conclusion}{45}{chapter.5}
+\contentsline {chapter}{Bibliography}{46}{chapter*.26}
+\contentsline {chapter}{Vita}{52}{chapter*.27}
