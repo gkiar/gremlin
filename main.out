@@ -1,0 +1,38 @@
+\BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{Acknowledgments}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{List of Tables}{}% 3
+\BOOKMARK [0][-]{chapter*.6}{List of Figures}{}% 4
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 5
+\BOOKMARK [0][-]{chapter.2}{Background}{}% 6
+\BOOKMARK [1][-]{section.2.1}{What is a Connectome?}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.2}{Acquiring Data For Connectomics}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.3}{Building A Connectome}{chapter.2}% 9
+\BOOKMARK [0][-]{chapter.3}{Methods}{}% 10
+\BOOKMARK [1][-]{section.3.1}{NeuroData's MRI Graphs}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.2}{The ndmg Pipeline}{chapter.3}% 12
+\BOOKMARK [2][-]{subsection.3.2.1}{Pre-Processing}{section.3.2}% 13
+\BOOKMARK [2][-]{subsection.3.2.2}{Registration}{section.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.2.3}{Tractography}{section.3.2}% 15
+\BOOKMARK [2][-]{subsection.3.2.4}{Graph Generation}{section.3.2}% 16
+\BOOKMARK [2][-]{subsection.3.2.5}{Alternative Processing Methods}{section.3.2}% 17
+\BOOKMARK [1][-]{section.3.3}{Architecture of the ndmg Package}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.4}{Validation}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.5}{Quality Control}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.5.1}{Raw Data}{section.3.5}% 21
+\BOOKMARK [2][-]{subsection.3.5.2}{Graphs}{section.3.5}% 22
+\BOOKMARK [0][-]{chapter.4}{Results}{}% 23
+\BOOKMARK [1][-]{section.4.1}{The ndmg Pipeline \046 Package}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.2}{Open Access Data}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.3}{Discriminability of ndmg}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.4}{Quality Control}{chapter.4}% 27
+\BOOKMARK [2][-]{subsection.4.4.1}{Raw Data}{section.4.4}% 28
+\BOOKMARK [2][-]{subsection.4.4.2}{Graphs}{section.4.4}% 29
+\BOOKMARK [1][-]{section.4.5}{Web services}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.5.1}{MR-GRUTEDB}{section.4.5}% 31
+\BOOKMARK [2][-]{subsection.4.5.2}{C4}{section.4.5}% 32
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 33
+\BOOKMARK [0][-]{chapter*.26}{Bibliography}{}% 34
+\BOOKMARK [0][-]{appendix.A}{Graph Analysis}{}% 35
+\BOOKMARK [1][-]{section.A.1}{MRN114}{appendix.A}% 36
+\BOOKMARK [1][-]{section.A.2}{SWU4}{appendix.A}% 37
+\BOOKMARK [0][-]{appendix*.37}{Vita}{}% 38

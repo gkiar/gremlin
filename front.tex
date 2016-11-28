@@ -1,0 +1,48 @@
+%% FRONTMATTER
+\begin{frontmatter}
+
+% generate title
+\maketitle
+
+\begin{abstract}
+
+In recent years there has been a growing desire to understand the structure and function of the human brain. Approximately 1 in 5 adults suffers from mental illness, and many of these illnesses, including Alzheimer's Disease, Autism Spectrum Disorders, ADHD, and Schizophrenia could be described as connectopathies \cite{connectopathy} and may appear when observing the connectome (structural map of the brain). To this end, an abundance of MRI datasets have been collected around the globe. Of particular interest when seeking a connectome are the diffusion weighted (DTI) and structural (MPRAGE) sequences. Tools have been developed to process these brain images and enable quantitative analysis of brain structure. However, these tools often require computational expertise, and there exist few options to perform end-to-end analysis of MR images easily. Previous iterations of end-to-end connectome estimation pipelines have been limited in their ability to run at scale in parallel and have complex dependencies and setup routines.
+
+We have developed a one-click open-source pipeline which allows for the reliable estimation of connectomes from MR data across multiple scales. The pipeline produced, ndmg, has been engineered to optimize the discriminability of resulting graphs across many datasets, effectively optimizing the lower bound of predictive accuracy for any downstream inference task. The ndmg pipeline has been used to generate connectomes from all known redistributable  DTI and MPRAGE datasets to date, over 5,000 subjects processed across 24 scales, resulting in a total of over 100,000 estimated connectomes. All of the connectomes we produced are made available through our graph database, \textsc{mr-grutedb}. The code for this open-source pipeline is available at \url{http://m2g.io}.  A web service, C4, also exists in which users can upload their MRI data and receive an estimated connectome in return at no cost. These tools lower the barrier for entry to connectomics by removing significant computational duress from researchers. This pipeline empowers reproducible science by abstracting hyper-parameter selection and over-fitting opportunities from researchers when processing their data, and enables mega-analysis of MR data across sites and studies, further opening the door for interesting and powerful scientific discovery.
+
+\vspace{1cm}
+
+\noindent Advisors: Joshua Vogelstein\footnote{Primary advisor; Assistant Professor, Department of Biomedical Engineering, Johns Hopkins University}, Randal Burns\footnote{Professor, Department of Computer Science, Johns Hopkins University}, Carey Priebe\footnote{Professor, Department of Applied Math and Statistics, Johns Hopkins University}, William Gray Roncal\footnote{Senior Research Engineer, Johns Hopkins University Applied Physics Lab}
+
+\end{abstract}
+
+\begin{acknowledgment}
+
+I would like to thank my advisor, Joshua Vogelstein, for his encouragement and high expectations which motivated and challenged me to achieve levels of awesome I thought impossible. I have learned so much from him, and am very grateful for being brought into the family.
+
+I would like to thank Will Gray Roncal for his constant support and guidance, and always looking ahead for me; Disa Mhembere for all his teaching, and amazing work in web service development; my co-advisors, Randal Burns and Carey Priebe for their seemingly endless supply of knowledge; and the rest of my lab mates, Alex Baden, Kunal Lillaney, Da Zheng, Tyler Tommita, Kwame Kutten, Jesse Patsolic, Jordan Matelsky, Eric Bridgeford, and Alex Eusman, for all of the laughs and drinks along the way.
+
+Of course, I would also like to thank my family, Judy, Steve, Heather and Emily Kiar; girlfriend Heather Anderson-Keightly; and countless friends for being supportive of me through all the ups and downs, and I hope they know that I wouldn't be here without them.
+
+\textsc{mr-grutedb} and C4 were joint works with Disa Mhembere; ndmg was joint work with William Gray Roncal; Discriminability analysis was joint work with Shangsi Wang.
+
+Finally, thank you to DARPA and the GRAPHS grant for funding me: Scalable Brain Graph Analyses Using Big-Memory, High-IOPS Compute Architectures ‒ DARPA (GRAPHS) ‒ DARPA-BAA-13-15 ‒ Burns (PI).
+
+\end{acknowledgment}
+
+\begin{dedication}
+ 
+This thesis is dedicated to brains... most of us have one.
+
+\end{dedication}
+
+% generate table of contents
+\tableofcontents
+
+% generate list of tables
+\listoftables
+
+% generate list of figures
+\listoffigures
+
+\end{frontmatter}

@@ -1,0 +1,90 @@
+% This template was originally by R. Jacob Vogelstein
+% Updated on March 1, 2010 by Noah J. Cowan
+
+
+\documentclass[12pt,oneside,final]{thesis}
+
+\usepackage[superscript]{cite}
+\usepackage{amsmath,amsfonts}
+\usepackage{graphicx}
+\graphicspath{{./figs/}}
+\usepackage{fixltx2e}
+\usepackage{array}
+
+\usepackage[toc,page]{appendix}
+
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{upgreek}
+\usepackage{hyperref}
+\usepackage{setspace}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{longtable}
+%\usepackage{CV}
+
+\usepackage{enumitem}
+\newlist{inlinelist}{enumerate*}{1}
+\setlist*[inlinelist,1]{%
+  label=(\arabic*),
+}
+
+\usepackage{fancyhdr}    % Use nice looking headers along with the required footer page numbers
+%\usepackage[hypertex]{hyperref}
+
+%Define the header/footer style
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{15pt}
+\lhead{\leftmark}
+\cfoot{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\fancypagestyle{plain}{% Redefine ``plain'' style for chapter boundaries
+\fancyhf{} % clear all header and footer fields
+\fancyfoot[C]{\thepage} % except the center
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}}
+
+%\tolerance=10000
+
+%\makeglossary % enable the glossary
+
+\begin{document}
+
+\title{GREMLIN: GRAPH ESTIMATION FROM MR IMAGES LEADING TO INFERENCE IN NEUROSCIENCE}
+\author{Gregory Kiar}
+\degreemonth{May}
+\degreeyear{2016} 
+\thesis
+\masterscienceeng
+\copyrightnotice
+
+
+% add your chapters, best way is to have separate TeX files for each chapter
+\include{front}
+\include{body}
+
+%% REFERENCES
+
+% if you use BIBTEX
+\bibliographystyle{IEEEtran}
+\bibliography{thesis}
+
+\include{appendix}
+
+\begin{vita}
+\begin{wrapfigure}{l}{0pt}
+\includegraphics[width=2.5in,clip,keepaspectratio]{gkheadshot}
+\end{wrapfigure}
+Greg Kiar received his B.Eng. degree in Biomedical and Electrical Engineering 
+from Carleton University in 2014, and enrolled in the Biomedical Engineering 
+MSE program at Johns Hopkins University later that year. Greg was born and raised in Ottawa, Canada. In 2014 Greg received several awards for his undergraduate capstone thesis on a neurological rehabilitation device for strokes including the Engineering Alumni Award, the Professional Engineers of Ontario Greatest Social Impact Paper Award, and the IEEE Regional Best Paper Award. His research now focuses on neurocartography, where Greg develops tools and statistical software for both mapping brains from images and analyzing them and any associated covariates with the goal of improving neurological diagnoses.
+
+Greg hopes to pursue a career in academia, and eventually move back to Canada.
+\end{vita}
+\end{document}
